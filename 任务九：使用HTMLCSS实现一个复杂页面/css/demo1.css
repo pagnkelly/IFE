@@ -2,12 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
-body{
 
-	width: 1280px;
-	margin: 0 auto;
-
-}
 ul,ol{
 	list-style: none;
 }
@@ -18,12 +13,17 @@ img{
 a{
 	text-decoration: none;
 }
+.wrap{
+	width: 1280px;
+	margin: 0 auto;
+	position: relative;
+}
 /***************header start****************/
 #header{
 	width: 100%;
 	height: 56px;
 	background: #2189bf;
-	position: relative;
+	
 }
 #header .logo{
 	position: absolute;
