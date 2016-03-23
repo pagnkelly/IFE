@@ -431,10 +431,12 @@ a{
 }
 .everser .everser-active{
 	border-top: 4px solid #4388c9; 
+	height: 37px;
 }
 
 .everser li:hover{
 	border-top: 4px solid #4388c9; 
+	height: 37px;
 }
 .total .total-date{
 	position: absolute;
