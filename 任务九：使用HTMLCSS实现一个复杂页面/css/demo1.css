@@ -380,11 +380,13 @@ a{
 .everser .right:after{
 	background-position: 0 -125px;
 }
+
 .everser ul li{
 	float: left;
 	width: 57px;
 	height: 41px;
 	margin-right: 5px;
+
 	background: #fff;
 	border-top: #c8c6ca 1px solid;
 	border-left: #c8c6ca 1px solid;
