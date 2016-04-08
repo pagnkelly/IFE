@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>行星与飞船</title>
+	<link rel="SHORTCUT ICON" href="img/chrome.ico"/>
+	<link rel="stylesheet" href="css/task26.css">
+</head>
+<body>
+	<!-- 控制台 -->
+	<div id="control">
+		<h1>操作板</h1>
+		<div data-id="0">
+			<span>轨道一</span>
+			<button type="button"  data-type="create" data-status="create">创建飞船</button><button type="button" disabled="disabled" data-type="drive" data-status="start">飞行</button>
+		</div>
+		<div data-id="1">
+			<span>轨道二</span>
+			<button type="button"  data-type="create" data-status="create">创建飞船</button><button type="button" disabled="disabled" data-type="drive" data-status="start">飞行</button>
+		</div>
+		<div data-id="2">
+			<span>轨道三</span>
+			<button type="button"  data-type="create" data-status="create">创建飞船</button><button type="button" disabled="disabled" data-type="drive" data-status="start">飞行</button>
+		</div>
+		<div  data-id="3">
+			<span>轨道四</span>
+			<button type="button" data-type="create" data-status="create">创建飞船</button><button type="button" disabled="disabled" data-type="drive" data-status="start">飞行</button>
+		</div>
+	</div>
+		
+	<!-- 命令信息展示 -->
+	<div id="console">
+		<h1>控制台</h1>
+		<div id="log"></div>
+	</div>
+	<!-- 行星 -->
+	<div id="plant"></div>
+	<!-- 轨道 -->
+	<div id="pathway0"></div>
+	<div id="pathway1"></div>
+	<div id="pathway2"></div>
+	<div id="pathway3"></div>
+	
+<script src="js/require.js" data-main="js/index.js"></script>
+</body>
+</html>

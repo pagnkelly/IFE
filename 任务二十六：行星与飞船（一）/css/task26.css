@@ -1,0 +1,190 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+body{
+	
+    background: url(../img/universe.jpg) no-repeat ;
+    background-size: cover;
+	position: relative;
+}
+h1{
+	width: 100%;
+	border: 2px solid #ccc;
+	text-align: center;
+	background: blue;
+	border-radius: 15px 15px 0 0;
+	color: #fff;
+	
+}
+/***********control******************/
+#control{
+	width: 340px;
+	height: 222px;
+	background: url(../img/control.jpg) no-repeat ;
+	background-size: cover;
+	position: relative;
+}
+#control div{
+	height: 40px;
+	margin-top: 4px;
+}
+#control span{
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+#control button {
+
+	width: 70px;
+	margin-right: 10px;
+}
+/***********console******************/
+#console{
+	width: 340px;
+	height: 222px;
+	background: black ;
+	margin-top: 100px;
+	
+	
+}
+
+#plant{
+	width: 300px;
+	height: 300px;
+	background: url(../img/earth.png) no-repeat ;
+	background-size: cover;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+	left: 50%;
+	
+}
+#pathway0{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	margin-top: -100px;
+	left: 50%;
+	margin-left: -50px;
+	border: 2px dotted #000;
+	border-radius: 50%;
+}
+
+#pathway1{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	margin-top: -150px;
+	left: 50%;
+	margin-left: -100px;
+	border: 2px dotted #000;
+	border-radius: 50%;
+	
+}
+#pathway2{
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	top: 50%;
+	margin-top: -200px;
+	left: 50%;
+	margin-left: -150px;
+	border: 2px dotted #000;
+	border-radius: 50%;
+}
+#pathway3{
+	width: 700px;
+	height: 700px;
+	position: absolute;
+	top: 50%;
+	margin-top: -250px;
+	left: 50%;
+	margin-left: -200px;
+	border: 2px dotted #000;
+	border-radius: 50%;
+}
+#log{
+	width: 100%;
+	height: 180px;
+	overflow: auto;
+}
+#ship1{
+	width: 100px;
+	height: 50px;
+	background: #ccc;
+	position: absolute;
+	left: 250px;
+	border-radius: 15px 30px 30px 15px;
+	-webkit-transform-origin: 0 250px;
+	-webkit-transform:rotate(0deg);
+	-webkit-transition:2s all linear;
+}
+#ship0{
+	width: 100px;
+	height: 50px;
+	background: #ccc;
+	position: absolute;
+	left: 200px;
+	border-radius: 15px 30px 30px 15px;
+	-webkit-transform-origin: 0 200px;
+	-webkit-transform:rotate(0deg);
+	-webkit-transition:1s all linear;
+}
+#ship2{
+	width: 100px;
+	height: 50px;
+	background: #ccc;
+	position: absolute;
+	left: 300px;
+	border-radius: 15px 30px 30px 15px;
+	-webkit-transform-origin: 0 300px;
+	-webkit-transform:rotate(0deg);
+	-webkit-transition:3s all linear;
+}
+#ship3{
+	width: 100px;
+	height: 50px;
+	background: #ccc;
+	position: absolute;
+	left: 350px;
+	border-radius: 15px 30px 30px 15px;
+	-webkit-transform-origin: 0 350px;
+	-webkit-transform:rotate(0deg);
+	-webkit-transition:4s all linear;
+}
+
+.energy{
+	width: 100px;
+	height: 50px;
+	background: red;
+	
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 15px 30px 30px 15px;
+	
+}
+.text{
+	width: 100px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align:center; 
+	line-height: 50px;
+}
+                    
+
+	
